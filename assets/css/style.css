@@ -12,11 +12,10 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* changed header class selector to header element selector to reflect semantic changes in html */
+/* changed header class selector to header element selector to reflect semantic changes in html. Removed font fanmily from header and added to header h1 instead */
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -24,19 +23,19 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Changed header div class to header nav to reflect semantic changes in html */
+/* Changed header div class to header nav to reflect semantic changes in html. Removed font family from header nav as this is now being inherited from the body */
 
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
